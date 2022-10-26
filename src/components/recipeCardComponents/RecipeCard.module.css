@@ -1,0 +1,43 @@
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 5%;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.26);
+    
+
+    
+}
+
+.image {
+    width: 300px;
+    height:300px;
+}
+
+img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.recipe-name {
+    margin-top:1em;
+    text-align: center;
+}
+
+.see-more {
+    width: fit-content;
+    margin: 1em 0em 1em 0em;
+    padding:3% 5% 3% 5%;
+    color: white;
+    background-color: #578A8B;
+    font-size: 18px;
+    border-style: none;
+}
+

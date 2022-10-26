@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    height: 150px;
+    background-color: #3E3E3E;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+
+}
+
+.social-row {
+    display: flex;
+    margin-top: 1em;
+    
+}
+
+
+.icon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#578A8B ;
+    align-items: center;
+    justify-content: center;
+    margin-right:.5em ;   
+}
+
+.icon a {
+    color: #3E3E3E;
+    text-decoration: none;
+    height:30px;   
+}

@@ -1,0 +1,36 @@
+
+.recipes-container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;       
+
+}
+
+.search-recipes {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search {
+    display: flex;
+    background: rgba(255, 166, 0, 0.697);
+    border-radius: 50px;
+    padding:.5em .5em .5em 1em;
+    width: 300px;
+    margin-top: 2em;;
+    
+}
+
+.search input {
+    margin-left: .5em;
+    font-size: 18px;
+    background-color: transparent;
+    border-style: none;
+    width: 100%;
+    outline: none;
+}
+
+.search input:focus{
+    border-style: none;
+}
