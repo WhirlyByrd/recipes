@@ -7,12 +7,13 @@ const AdBanner = () => {
   return (
     <div
       style={{
-        background: `linear-gradient(
+          background: `linear-gradient(
           190deg,
           rgba(0, 0, 0, 0.8),
           rgba(0, 0, 0, 0.8)),
           url(${salmon})`,
-        backgroundSize: "cover",
+          backgroundSize: "cover",
+          backgroundPosition:'center'
       }}
     >
       <div className={classes["ad-container"]}>

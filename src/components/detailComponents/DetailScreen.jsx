@@ -14,15 +14,24 @@ const DetailScreen = () => {
     .then((res) => {
       setRecipe(res.data)
       console.log(res.data)
-    .catch((er) => {
-        console.log(er)
-      })
+    
     })
   }, [])
 
   return (
     <section className={classes["details-page"]}>
-      <section className={classes["image-container"]}>
+
+      <section  
+        style={{
+          background: `linear-gradient(
+          190deg,
+          rgba(0, 0, 0, 0.8),
+          rgba(0, 0, 0, 0.8)),
+          url(${recipe.image_url})`,
+          backgroundSize: "cover", 
+          backgroundPosition: 'center',
+    }} className={classes["image-container"]}
+     >
         <h1 className={classes["recipe-title"]}>{recipe.recipe_name}</h1>
       </section>
 
