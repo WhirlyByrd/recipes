@@ -14,11 +14,10 @@ const HomeScreen = () => {
     .then((res) => {
       setRecipes(res.data)
       console.log(res.data)
-    .catch((er) => {
-        console.log(er)
-      })  
-
     })
+    .catch((er) => {
+      console.log(er)
+    })  
   }  
 
     useEffect(() => {

@@ -41,6 +41,9 @@ const NewRecipeScreen = () => {
     console.log(values);
 
     axios.post(`https://recipes.devmountain.com/recipes`, values)
+    .catch((er) => {
+      console.log(er)
+    }) 
 
     resetForm({values: ""})
 
@@ -131,7 +134,9 @@ const NewRecipeScreen = () => {
               onChange={handleChange}
             />
             <div className={classes['ingredient-btn']}>
-            <button onClick={onSubmit}>Save</button>
+            <button 
+            type="submit"
+            onClick={onSubmit}>Save</button>
             </div>
           </form>
         )}
