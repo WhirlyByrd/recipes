@@ -10,7 +10,6 @@
     padding-right: 5%;
     justify-content: space-between;
 
-
 }
 
 .title {
@@ -23,14 +22,10 @@
     color: white;
 }
 
-.links nav a:hover {
-    color: #FF9E5F;
+a:hover {
+    color: #fcbb90;
+    
 }
 
-.links nav a:visited {
-    text-decoration: underline;
-}
 
-.links nav a:active {
-    text-decoration: underline;
-}
+

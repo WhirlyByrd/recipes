@@ -17,6 +17,7 @@ function App() {
         <Route path='/newRecipe' element={<NewRecipeScreen />}/>
         <Route path='/recipe/:id' element={<DetailScreen />}/>
       </Routes>
+      
       <Footer />
     </div>
   );

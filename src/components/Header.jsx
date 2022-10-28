@@ -10,19 +10,16 @@ const Header = () => {
       <nav>
         <NavLink 
         to=''
+        end
         style={({ isActive }) => ({
-          color: isActive ? '#fff' : '#fff',
-          textDecoration: isActive ? 'underline' : 'none',
-          fontWeight: isActive ? '700' : '',
+          color: isActive ? '#3E3E3E' : '#fff',
         })}
         >Home</NavLink>
 
         <NavLink 
         to='/newRecipe'
         style={({ isActive }) => ({
-          color: isActive ? 'lightblue' : '#fff',
-          textDecoration: isActive ? 'underline' : 'none',
-          fontWeight: isActive ? '700' : '',
+          color: isActive ? '#3E3E3E' : '#fff',
         })}
         >Add Recipe</NavLink>    
       </nav>

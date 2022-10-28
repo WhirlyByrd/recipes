@@ -21,3 +21,9 @@ time, mark, audio, video {
 }
 
 /* --------- Begin your CSS Below here --------- */
+
+.App {
+	position: relative;
+	min-height:100vh;
+	padding-bottom: 150px;
+}
